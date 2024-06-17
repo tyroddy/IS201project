@@ -1,0 +1,123 @@
+/* * {
+
+
+    padding: 50px;
+    border: 5px solid black;
+    margin: 20px;
+} */
+
+
+body {
+
+    color: darkslategray;
+    background-color: lightgreen;
+
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+
+}
+
+h1 {
+
+    color: blue;
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h2 {
+
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 48;
+
+}
+
+
+h3 {
+
+    color: darkblue;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    padding: 10px;
+    border: 5px solid black;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+
+#top {
+    color: forestgreen;
+}
+
+.backgroundbox {
+    background-color: white;
+
+}
+
+.backgroundimage {
+
+    background-image: url("../images/golfcoursepic.jpeg");
+    background-repeat: repeat;
+    background-size: 200px;
+    opacity: 50%;
+}
+
+
+
+.container{
+position: relative;
+padding: 20px;
+border-color: black;
+border-style: solid;
+box-sizing: border-box;
+}
+
+.header{
+background-color: beige;
+border: 5px solid black;
+margin: auto;
+}
+
+.LM{
+    background-color: beige;
+    border: 5px solid black;
+    float: left;
+    width: 22%;
+    margin: auto;
+}
+
+.MB{
+    background-color: beige;
+    border: 5px solid black;
+    float: left;
+    width: 54%;
+    margin: auto;
+}
+
+.RM{
+    background-color: beige;
+    border: 5px solid black;
+    float: right;
+    width: 15%;
+    margin: auto;
+}
+
+.footer{
+    background-color: beige;
+    border: 5px solid black;
+    margin-top: 95%;
+    margin-bottom: 0px;
+}
